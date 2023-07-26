@@ -2,9 +2,9 @@ meta {
     title: "Highway areas";
     description: "Visual support for mapping highway areas (area:highway).";
     link: "https://wiki.openstreetmap.org/wiki/Key:area:highway";
-    icon: ".........";
+    icon: "area_highway.png";
     author: "Alex Seidel (Supaplex030)";
-    version: "0.1_2023-06-09";
+    version: "1.[[revision]]_[[date]]";
     min-josm-version: "11700";
 }
 
@@ -14,6 +14,7 @@ meta[lang=de]
     description: "Visuelle Unterstützung bei der Kartierung von Straßenflächen (area:highway).";
 }
 
+/* default/backup filling */
 area[area:highway]
 {
     fill-opacity: 0.4;
@@ -50,11 +51,28 @@ area[area:highway=road]
     fill-color: white;
 }
 
-area[area:highway=pedestrian],
 area[area:highway=living_street],
 area[area:highway=turning_circle]
 {
     fill-color: #C8C8FF;
+}
+
+area[area:highway=service]
+{
+    fill-color: #808080;
+}
+
+area[area:highway=pedestrian],
+area[area:highway=footway]
+{
+    fill-color: #FFFF55;
+    fill-opacity: 0.5;
+}
+
+area[area:highway=cycleway]
+{
+    fill-color: #745CEF;
+    fill-opacity: 0.5;
 }
 
 /* ---------------------------------------------------- */
@@ -144,7 +162,7 @@ area[amenity=parking][parking=half_on_kerb],
 area[amenity=parking][parking=shoulder]
 {
     fill-opacity: 0.4;
-    fill-color: #7d3c98;
+    fill-color: #7D3C98;
     fill-extent: 50;
 }
 
@@ -177,9 +195,19 @@ area[area:highway][junction=yes][area:highway=road]
     fill-image: images/stripe_texture_white.svg;
 }
 
-area[area:highway][junction=yes][area:highway=pedestrian],
 area[area:highway][junction=yes][area:highway=living_street],
 area[area:highway][junction=yes][area:highway=turning_circle]
 {
     fill-image: images/stripe_texture_C8C8FF.svg;
+}
+
+area[area:highway][junction=yes][area:highway=pedestrian],
+area[area:highway][junction=yes][area:highway=cycleway]
+{
+    fill-image: images/stripe_texture_FFFF55.svg;
+}
+
+area[area:highway][junction=yes][area:highway=cycleway]
+{
+    fill-image: images/stripe_texture_745CEF.svg;
 }
