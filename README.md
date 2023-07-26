@@ -10,7 +10,6 @@
 ## Missing features
 This style sheet is in an early stage. Therefor, lots of maybe usefull features are missing/tags are unsupported, e.g.
 - no support for motorways etc.
-- no support for footways, cylceways, path etc.
 - small support for special highway areas like "traffic_island"
 
 ## Sample images
