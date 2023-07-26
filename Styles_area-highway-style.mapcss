@@ -63,7 +63,8 @@ area[area:highway=service]
 }
 
 area[area:highway=pedestrian],
-area[area:highway=footway]
+area[area:highway=footway],
+area[area:highway=path]
 {
     fill-color: #FFFF55;
     fill-opacity: 0.5;
@@ -202,7 +203,8 @@ area[area:highway][junction=yes][area:highway=turning_circle]
 }
 
 area[area:highway][junction=yes][area:highway=pedestrian],
-area[area:highway][junction=yes][area:highway=cycleway]
+area[area:highway][junction=yes][area:highway=footway],
+area[area:highway][junction=yes][area:highway=path]
 {
     fill-image: images/stripe_texture_FFFF55.svg;
 }
