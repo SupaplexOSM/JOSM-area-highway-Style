@@ -4,7 +4,7 @@ meta {
     link: "https://wiki.openstreetmap.org/wiki/Key:area:highway";
     icon: "area_highway.png";
     author: "Alex Seidel (Supaplex030)";
-    version: "1.[[revision]]_[[date]]";
+    version: "1.3_2023-07-26";
     min-josm-version: "11700";
 }
 
