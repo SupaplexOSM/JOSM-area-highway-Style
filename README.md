@@ -1,6 +1,8 @@
 # JOSM-area-highway-Style
 [JOSM](https://wiki.openstreetmap.org/wiki/JOSM) [map style](https://josm.openstreetmap.de/wiki/Styles) providing visual support for mapping highway areas ([area:highway](https://wiki.openstreetmap.org/wiki/Key:area:highway)).
 
+See also its page on the [JOSM Wiki](https://josm.openstreetmap.de/wiki/Styles/HighwayAreas).
+
 ## Features
 - color highway areas by highway category/type of area
 - pattern for junctions
