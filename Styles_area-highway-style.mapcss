@@ -1,10 +1,10 @@
 meta {
     title: "Highway areas";
     description: "Visual support for mapping highway areas (area:highway).";
-    link: "https://wiki.openstreetmap.org/wiki/Key:area:highway";
+    link: "https://josm.openstreetmap.de/wiki/Styles/HighwayAreas";
     icon: "area_highway.png";
     author: "Alex Seidel (Supaplex030)";
-    version: "1.3_2023-07-26";
+    version: "1.4_2023-07-26";
     min-josm-version: "11700";
 }
 
