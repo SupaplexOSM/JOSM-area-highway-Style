@@ -148,7 +148,8 @@ area[area:highway=traffic_island]
     left-casing-width: 0;
 }
 
-area[area:highway=prohibited]
+area[area:highway=prohibited],
+area[road_marking=restriction]
 {
     fill-color: white;
     fill-opacity: 0.3;
